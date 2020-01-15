@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_beranda"
+        android:icon="@drawable/beranda"
+        android:title="@string/title_beranda" />
+
+    <item
+        android:id="@+id/navigation_sewa"
+        android:icon="@drawable/notification"
+        android:title="@string/title_sewa" />
+
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/user"
+        android:title="@string/title_profil" />
+
+</menu>

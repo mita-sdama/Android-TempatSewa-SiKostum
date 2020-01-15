@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SewaFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:background="#03A9F4"
+            android:layout_width="match_parent"
+            android:layout_height="340dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/title"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/pemesanan_menu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginRight="22dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/pemesanan"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:src="@drawable/pemesanan_icon" />
+
+
+                        <com.nex3z.notificationbadge.NotificationBadge
+                            android:id="@+id/jumlahPesanMasuk"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_alignTop="@id/pemesanan"
+                            android:layout_alignRight="@id/pemesanan"
+                            app:nbMaxTextLength="2"
+                            tools:ignore="NotSibling"/>
+
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/pemesanan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pemesanan"
+                            android:fontFamily="casual"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="#000000"/>
+
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:id="@+id/sewa_menu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginRight="22dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/sewa"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:src="@drawable/sewa_icon" />
+
+
+                        <com.nex3z.notificationbadge.NotificationBadge
+                            android:id="@+id/jumlahSewaMasuk"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_alignTop="@id/sewa"
+                            android:layout_alignRight="@id/sewa"
+                            app:nbMaxTextLength="2"
+                            tools:ignore="NotSibling"/>
+
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sewa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sewa"
+                            android:textStyle="bold"
+                            android:fontFamily="casual"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="#000000"/>
+
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,17 @@
+<resources>
+    //menu
+    <string name="app_name">Tempat Sewa</string>
+    <string name="title_activity_beranda">BerandaActivity</string>
+    <string name="title_beranda">Beranda</string>
+    <string name="title_sewa">Sewa</string>
+    <string name="title_profil">Profil</string>
+    //data wilayah
+    <string name="txt_slct_prov">Pilih Provinsi</string>
+    <string name="txt_slct_kab">Pilih Kota</string>
+    <string name="txt_slct_kec">Pilih Kecamatan</string>
+    <string name="txt_slct_kel">Pilih Kelurahan</string>
+    <string name="txt_please_slct">Pilih </string>
+    //petik
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

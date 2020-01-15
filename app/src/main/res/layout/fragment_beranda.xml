@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BerandaFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:background="#03A9F4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/title"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/tempat_sewa_menu"
+                        android:paddingTop="30dp"
+                        android:paddingBottom="30dp"
+                        android:drawableTop="@drawable/tempat_icon"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        android:inputType="textCapCharacters"
+                        android:text="Tempat Sewa"
+                        android:background="#ffffff"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp" />
+                    <Button
+                        android:id="@+id/riwayat_menu"
+                        android:padding="30dp"
+                        android:drawableTop="@drawable/history_icon"
+                        android:text="Riwayat"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        android:inputType="textCapCharacters"
+                        android:layout_marginTop="20dp"
+                        android:background="#ffffff"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/kostum_menu"
+                        android:padding="30dp"
+                        android:drawableTop="@drawable/kostum_icon"
+                        android:text="Kostum"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        android:inputType="textCapCharacters"
+                        android:background="#ffffff"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp" />
+
+                    <Button
+                        android:id="@+id/komentar_menu"
+                        android:padding="30dp"
+                        android:drawableTop="@drawable/comment_icon"
+                        android:text="Komentar"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        android:inputType="textCapCharacters"
+                        android:layout_marginTop="20dp"
+                        android:background="#ffffff"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

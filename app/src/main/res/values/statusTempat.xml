@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="statusTempat">
+    <item>Buka</item>
+    <item>Tutup</item>
+</string-array>
+</resources>
